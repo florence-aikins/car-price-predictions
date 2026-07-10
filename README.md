@@ -126,33 +126,6 @@ Models were evaluated using:
 - Polynomial regression modelled the non-linear relationship between mileage and price more effectively than standard linear regression.
 - K-Means clustering generated an additional cluster feature that slightly improved model performance.
 
-
-## Repository Structure
-
-```text
-├── data/
-│   ├── raw/
-│   └── processed/
-│
-├── notebooks/
-│   └── AML_assessment.ipynb
-│
-├── images/
-│   ├── shap_summary.png
-│   ├── shap_waterfall.png
-│   ├── permutation_importance.png
-│   ├── partial_dependence.png
-│   ├── pca_results.png
-│   ├── isomap_results.png
-│   ├── polynomial_regression.png
-│   └── kmeans_clusters.png
-│
-├── README.md
-├── requirements.txt
-└── LICENSE
-```
-
-
 ## How to Run
 
 Clone the repository:
